@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTN Uganda Prepaid Internet Data Bundles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>MTN Uganda Internet Data Bundles</h1>
+        <p>Compare prepaid data packages by validity period and dial the USSD code to activate.</p>
+    </div>
+
+    <!--
+        Best Value is determined by calculating the cost per megabyte (UGX / MB):
+        Daily: 100 MB @ 500 UGX = 5.00 UGX/MB vs. 1 GB (1,024 MB) @ 2,000 UGX = 1.95 UGX/MB
+        Weekly: 1.5 GB (1,536 MB) @ 5,000 UGX = 3.26 UGX/MB vs. 5 GB (5,120 MB) @ 12,000 UGX = 2.34 UGX/MB
+        Monthly: 10 GB (10,240 MB) @ 30,000 UGX = 2.93 UGX/MB vs. 30 GB (30,720 MB) @ 65,000 UGX = 2.12 UGX/MB
+    -->
+
+    <div class="table-wrapper">
+        <table>
+            <caption>MTN Uganda Prepaid Internet Data Bundles Comparison (Prices in UGX)</caption>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Bundle Name</th>
+                    <th>Data Volume</th>
+                    <th>Validity</th>
+                    <th class="price-col">Price (UGX)</th>
+                    <th>USSD Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2" class="category-cell">Daily</td>
+                    <td>Daily Starter</td>
+                    <td>100 MB</td>
+                    <td>24 Hours</td>
+                    <td class="price-col">500</td>
+                    <td>*150*1*1#</td>
+                </tr>
+                <tr>
+                    <td>Daily Mega <span class="badge">Best Value</span></td>
+                    <td>1 GB</td>
+                    <td>24 Hours</td>
+                    <td class="price-col">2,000</td>
+                    <td>*150*1*2#</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="category-cell">Weekly</td>
+                    <td>Weekly Standard</td>
+                    <td>1.5 GB</td>
+                    <td>7 Days</td>
+                    <td class="price-col">5,000</td>
+                    <td>*150*2*1#</td>
+                </tr>
+                <tr>
+                    <td>Weekly Max <span class="badge">Best Value</span></td>
+                    <td>5 GB</td>
+                    <td>7 Days</td>
+                    <td class="price-col">12,000</td>
+                    <td>*150*2*2#</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="category-cell">Monthly</td>
+                    <td>Monthly Essential</td>
+                    <td>10 GB</td>
+                    <td>30 Days</td>
+                    <td class="price-col">30,000</td>
+                    <td>*150*3*1#</td>
+                </tr>
+                <tr>
+                    <td>Monthly Pro <span class="badge">Best Value</span></td>
+                    <td>30 GB</td>
+                    <td>30 Days</td>
+                    <td class="price-col">65,000</td>
+                    <td>*150*3*2#</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">Total Prepaid Data Bundles Listed: 6</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+</html>

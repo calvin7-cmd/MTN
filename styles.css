@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 20px;
+}
+
+.header-banner {
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    background-color: #FFCB05;
+    color: #000000;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.header-banner h1 {
+    margin: 0 0 8px 0;
+    font-size: 1.75rem;
+}
+
+.header-banner p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.table-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+caption {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #111111;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #111111;
+    color: #FFCB05;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #fff3cd;
+}
+
+.category-cell {
+    background-color: #ffffff;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.price-col {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #FFCB05;
+    color: #000000;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+    text-transform: uppercase;
+}
+
+tfoot td {
+    background-color: #879eb5;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (max-width: 599px) {
+    .table-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+        min-width: 650px;
+    }
+}
